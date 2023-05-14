@@ -1,0 +1,30 @@
+/* *{
+    height: 100vh;
+    width: 100vh;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300;600&family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+iframe {
+    margin-left: 12px;
+}
+
+hr {
+    border-top: 3px solid;
+}
